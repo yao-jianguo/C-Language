@@ -340,6 +340,33 @@ ex1/fast:
 	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/1_basic_concept/ex5-常量.c.s
 .PHONY : 1_basic_concept/ex5-常量.c.s
 
+1_basic_concept/ex6-从函数返回数组.o: 1_basic_concept/ex6-从函数返回数组.c.o
+
+.PHONY : 1_basic_concept/ex6-从函数返回数组.o
+
+# target to build an object file
+1_basic_concept/ex6-从函数返回数组.c.o:
+	$(MAKE) -f CMakeFiles/ex5.dir/build.make CMakeFiles/ex5.dir/1_basic_concept/ex6-从函数返回数组.c.o
+.PHONY : 1_basic_concept/ex6-从函数返回数组.c.o
+
+1_basic_concept/ex6-从函数返回数组.i: 1_basic_concept/ex6-从函数返回数组.c.i
+
+.PHONY : 1_basic_concept/ex6-从函数返回数组.i
+
+# target to preprocess a source file
+1_basic_concept/ex6-从函数返回数组.c.i:
+	$(MAKE) -f CMakeFiles/ex5.dir/build.make CMakeFiles/ex5.dir/1_basic_concept/ex6-从函数返回数组.c.i
+.PHONY : 1_basic_concept/ex6-从函数返回数组.c.i
+
+1_basic_concept/ex6-从函数返回数组.s: 1_basic_concept/ex6-从函数返回数组.c.s
+
+.PHONY : 1_basic_concept/ex6-从函数返回数组.s
+
+# target to generate assembly for a file
+1_basic_concept/ex6-从函数返回数组.c.s:
+	$(MAKE) -f CMakeFiles/ex5.dir/build.make CMakeFiles/ex5.dir/1_basic_concept/ex6-从函数返回数组.c.s
+.PHONY : 1_basic_concept/ex6-从函数返回数组.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -371,6 +398,9 @@ help:
 	@echo "... 1_basic_concept/ex5-常量.o"
 	@echo "... 1_basic_concept/ex5-常量.i"
 	@echo "... 1_basic_concept/ex5-常量.s"
+	@echo "... 1_basic_concept/ex6-从函数返回数组.o"
+	@echo "... 1_basic_concept/ex6-从函数返回数组.i"
+	@echo "... 1_basic_concept/ex6-从函数返回数组.s"
 .PHONY : help
 
 

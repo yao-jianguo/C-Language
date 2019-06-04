@@ -15,4 +15,4 @@ add_executable(ex3
 add_executable(ex4
         1_basic_concept/ex4-外部变量的引用.c 1_basic_concept/ex4-外部变量的引用main.c 1_basic_concept/ex5-常量.c)
 add_executable(ex5
-        1_basic_concept/ex5-常量.c)
+        1_basic_concept/ex5-常量.c 1_basic_concept/ex6-从函数返回数组.c)
