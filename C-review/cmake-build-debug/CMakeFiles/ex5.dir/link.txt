@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/cc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/ex5.dir/1_basic_concept/ex5-常量.c.o CMakeFiles/ex5.dir/1_basic_concept/ex6-从函数返回数组.c.o  -o ex5 
+/Library/Developer/CommandLineTools/usr/bin/cc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/ex5.dir/1_basic_concept/ex5-常量.c.o  -o ex5 

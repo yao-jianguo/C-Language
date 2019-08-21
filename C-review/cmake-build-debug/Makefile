@@ -111,6 +111,58 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named ex9
+
+# Build rule for target.
+ex9: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ex9
+.PHONY : ex9
+
+# fast build rule for target.
+ex9/fast:
+	$(MAKE) -f CMakeFiles/ex9.dir/build.make CMakeFiles/ex9.dir/build
+.PHONY : ex9/fast
+
+#=============================================================================
+# Target rules for targets named ex8
+
+# Build rule for target.
+ex8: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ex8
+.PHONY : ex8
+
+# fast build rule for target.
+ex8/fast:
+	$(MAKE) -f CMakeFiles/ex8.dir/build.make CMakeFiles/ex8.dir/build
+.PHONY : ex8/fast
+
+#=============================================================================
+# Target rules for targets named ex7
+
+# Build rule for target.
+ex7: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ex7
+.PHONY : ex7
+
+# fast build rule for target.
+ex7/fast:
+	$(MAKE) -f CMakeFiles/ex7.dir/build.make CMakeFiles/ex7.dir/build
+.PHONY : ex7/fast
+
+#=============================================================================
+# Target rules for targets named ex6
+
+# Build rule for target.
+ex6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ex6
+.PHONY : ex6
+
+# fast build rule for target.
+ex6/fast:
+	$(MAKE) -f CMakeFiles/ex6.dir/build.make CMakeFiles/ex6.dir/build
+.PHONY : ex6/fast
+
+#=============================================================================
 # Target rules for targets named ex5
 
 # Build rule for target.
@@ -317,7 +369,6 @@ ex1/fast:
 # target to build an object file
 1_basic_concept/ex5-常量.c.o:
 	$(MAKE) -f CMakeFiles/ex5.dir/build.make CMakeFiles/ex5.dir/1_basic_concept/ex5-常量.c.o
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/1_basic_concept/ex5-常量.c.o
 .PHONY : 1_basic_concept/ex5-常量.c.o
 
 1_basic_concept/ex5-常量.i: 1_basic_concept/ex5-常量.c.i
@@ -327,7 +378,6 @@ ex1/fast:
 # target to preprocess a source file
 1_basic_concept/ex5-常量.c.i:
 	$(MAKE) -f CMakeFiles/ex5.dir/build.make CMakeFiles/ex5.dir/1_basic_concept/ex5-常量.c.i
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/1_basic_concept/ex5-常量.c.i
 .PHONY : 1_basic_concept/ex5-常量.c.i
 
 1_basic_concept/ex5-常量.s: 1_basic_concept/ex5-常量.c.s
@@ -337,7 +387,6 @@ ex1/fast:
 # target to generate assembly for a file
 1_basic_concept/ex5-常量.c.s:
 	$(MAKE) -f CMakeFiles/ex5.dir/build.make CMakeFiles/ex5.dir/1_basic_concept/ex5-常量.c.s
-	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/1_basic_concept/ex5-常量.c.s
 .PHONY : 1_basic_concept/ex5-常量.c.s
 
 1_basic_concept/ex6-从函数返回数组.o: 1_basic_concept/ex6-从函数返回数组.c.o
@@ -346,7 +395,7 @@ ex1/fast:
 
 # target to build an object file
 1_basic_concept/ex6-从函数返回数组.c.o:
-	$(MAKE) -f CMakeFiles/ex5.dir/build.make CMakeFiles/ex5.dir/1_basic_concept/ex6-从函数返回数组.c.o
+	$(MAKE) -f CMakeFiles/ex6.dir/build.make CMakeFiles/ex6.dir/1_basic_concept/ex6-从函数返回数组.c.o
 .PHONY : 1_basic_concept/ex6-从函数返回数组.c.o
 
 1_basic_concept/ex6-从函数返回数组.i: 1_basic_concept/ex6-从函数返回数组.c.i
@@ -355,7 +404,7 @@ ex1/fast:
 
 # target to preprocess a source file
 1_basic_concept/ex6-从函数返回数组.c.i:
-	$(MAKE) -f CMakeFiles/ex5.dir/build.make CMakeFiles/ex5.dir/1_basic_concept/ex6-从函数返回数组.c.i
+	$(MAKE) -f CMakeFiles/ex6.dir/build.make CMakeFiles/ex6.dir/1_basic_concept/ex6-从函数返回数组.c.i
 .PHONY : 1_basic_concept/ex6-从函数返回数组.c.i
 
 1_basic_concept/ex6-从函数返回数组.s: 1_basic_concept/ex6-从函数返回数组.c.s
@@ -364,8 +413,89 @@ ex1/fast:
 
 # target to generate assembly for a file
 1_basic_concept/ex6-从函数返回数组.c.s:
-	$(MAKE) -f CMakeFiles/ex5.dir/build.make CMakeFiles/ex5.dir/1_basic_concept/ex6-从函数返回数组.c.s
+	$(MAKE) -f CMakeFiles/ex6.dir/build.make CMakeFiles/ex6.dir/1_basic_concept/ex6-从函数返回数组.c.s
 .PHONY : 1_basic_concept/ex6-从函数返回数组.c.s
+
+1_basic_concept/ex7-指针数组.o: 1_basic_concept/ex7-指针数组.c.o
+
+.PHONY : 1_basic_concept/ex7-指针数组.o
+
+# target to build an object file
+1_basic_concept/ex7-指针数组.c.o:
+	$(MAKE) -f CMakeFiles/ex7.dir/build.make CMakeFiles/ex7.dir/1_basic_concept/ex7-指针数组.c.o
+.PHONY : 1_basic_concept/ex7-指针数组.c.o
+
+1_basic_concept/ex7-指针数组.i: 1_basic_concept/ex7-指针数组.c.i
+
+.PHONY : 1_basic_concept/ex7-指针数组.i
+
+# target to preprocess a source file
+1_basic_concept/ex7-指针数组.c.i:
+	$(MAKE) -f CMakeFiles/ex7.dir/build.make CMakeFiles/ex7.dir/1_basic_concept/ex7-指针数组.c.i
+.PHONY : 1_basic_concept/ex7-指针数组.c.i
+
+1_basic_concept/ex7-指针数组.s: 1_basic_concept/ex7-指针数组.c.s
+
+.PHONY : 1_basic_concept/ex7-指针数组.s
+
+# target to generate assembly for a file
+1_basic_concept/ex7-指针数组.c.s:
+	$(MAKE) -f CMakeFiles/ex7.dir/build.make CMakeFiles/ex7.dir/1_basic_concept/ex7-指针数组.c.s
+.PHONY : 1_basic_concept/ex7-指针数组.c.s
+
+1_basic_concept/ex8-指向指针的指针.o: 1_basic_concept/ex8-指向指针的指针.c.o
+
+.PHONY : 1_basic_concept/ex8-指向指针的指针.o
+
+# target to build an object file
+1_basic_concept/ex8-指向指针的指针.c.o:
+	$(MAKE) -f CMakeFiles/ex8.dir/build.make CMakeFiles/ex8.dir/1_basic_concept/ex8-指向指针的指针.c.o
+.PHONY : 1_basic_concept/ex8-指向指针的指针.c.o
+
+1_basic_concept/ex8-指向指针的指针.i: 1_basic_concept/ex8-指向指针的指针.c.i
+
+.PHONY : 1_basic_concept/ex8-指向指针的指针.i
+
+# target to preprocess a source file
+1_basic_concept/ex8-指向指针的指针.c.i:
+	$(MAKE) -f CMakeFiles/ex8.dir/build.make CMakeFiles/ex8.dir/1_basic_concept/ex8-指向指针的指针.c.i
+.PHONY : 1_basic_concept/ex8-指向指针的指针.c.i
+
+1_basic_concept/ex8-指向指针的指针.s: 1_basic_concept/ex8-指向指针的指针.c.s
+
+.PHONY : 1_basic_concept/ex8-指向指针的指针.s
+
+# target to generate assembly for a file
+1_basic_concept/ex8-指向指针的指针.c.s:
+	$(MAKE) -f CMakeFiles/ex8.dir/build.make CMakeFiles/ex8.dir/1_basic_concept/ex8-指向指针的指针.c.s
+.PHONY : 1_basic_concept/ex8-指向指针的指针.c.s
+
+1_basic_concept/ex9-回调函数.o: 1_basic_concept/ex9-回调函数.c.o
+
+.PHONY : 1_basic_concept/ex9-回调函数.o
+
+# target to build an object file
+1_basic_concept/ex9-回调函数.c.o:
+	$(MAKE) -f CMakeFiles/ex9.dir/build.make CMakeFiles/ex9.dir/1_basic_concept/ex9-回调函数.c.o
+.PHONY : 1_basic_concept/ex9-回调函数.c.o
+
+1_basic_concept/ex9-回调函数.i: 1_basic_concept/ex9-回调函数.c.i
+
+.PHONY : 1_basic_concept/ex9-回调函数.i
+
+# target to preprocess a source file
+1_basic_concept/ex9-回调函数.c.i:
+	$(MAKE) -f CMakeFiles/ex9.dir/build.make CMakeFiles/ex9.dir/1_basic_concept/ex9-回调函数.c.i
+.PHONY : 1_basic_concept/ex9-回调函数.c.i
+
+1_basic_concept/ex9-回调函数.s: 1_basic_concept/ex9-回调函数.c.s
+
+.PHONY : 1_basic_concept/ex9-回调函数.s
+
+# target to generate assembly for a file
+1_basic_concept/ex9-回调函数.c.s:
+	$(MAKE) -f CMakeFiles/ex9.dir/build.make CMakeFiles/ex9.dir/1_basic_concept/ex9-回调函数.c.s
+.PHONY : 1_basic_concept/ex9-回调函数.c.s
 
 # Help Target
 help:
@@ -375,6 +505,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... ex9"
+	@echo "... ex8"
+	@echo "... ex7"
+	@echo "... ex6"
 	@echo "... ex5"
 	@echo "... ex4"
 	@echo "... ex3"
@@ -401,6 +535,15 @@ help:
 	@echo "... 1_basic_concept/ex6-从函数返回数组.o"
 	@echo "... 1_basic_concept/ex6-从函数返回数组.i"
 	@echo "... 1_basic_concept/ex6-从函数返回数组.s"
+	@echo "... 1_basic_concept/ex7-指针数组.o"
+	@echo "... 1_basic_concept/ex7-指针数组.i"
+	@echo "... 1_basic_concept/ex7-指针数组.s"
+	@echo "... 1_basic_concept/ex8-指向指针的指针.o"
+	@echo "... 1_basic_concept/ex8-指向指针的指针.i"
+	@echo "... 1_basic_concept/ex8-指向指针的指针.s"
+	@echo "... 1_basic_concept/ex9-回调函数.o"
+	@echo "... 1_basic_concept/ex9-回调函数.i"
+	@echo "... 1_basic_concept/ex9-回调函数.s"
 .PHONY : help
 
 

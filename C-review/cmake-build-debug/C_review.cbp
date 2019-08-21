@@ -37,6 +37,182 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaojianguo/Library/Mobile\ Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="ex9">
+				<Option output="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/ex9" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/."/>
+					<Add directory="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/1_basic_concept"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaojianguo/Library/Mobile\ Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex9"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaojianguo/Library/Mobile\ Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaojianguo/Library/Mobile\ Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaojianguo/Library/Mobile\ Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex9/fast">
+				<Option output="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/ex9" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/."/>
+					<Add directory="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/1_basic_concept"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaojianguo/Library/Mobile\ Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex9/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaojianguo/Library/Mobile\ Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaojianguo/Library/Mobile\ Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaojianguo/Library/Mobile\ Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex8">
+				<Option output="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/ex8" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/."/>
+					<Add directory="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/1_basic_concept"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaojianguo/Library/Mobile\ Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex8"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaojianguo/Library/Mobile\ Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaojianguo/Library/Mobile\ Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaojianguo/Library/Mobile\ Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex8/fast">
+				<Option output="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/ex8" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/."/>
+					<Add directory="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/1_basic_concept"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaojianguo/Library/Mobile\ Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex8/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaojianguo/Library/Mobile\ Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaojianguo/Library/Mobile\ Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaojianguo/Library/Mobile\ Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex7">
+				<Option output="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/ex7" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/."/>
+					<Add directory="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/1_basic_concept"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaojianguo/Library/Mobile\ Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex7"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaojianguo/Library/Mobile\ Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaojianguo/Library/Mobile\ Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaojianguo/Library/Mobile\ Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex7/fast">
+				<Option output="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/ex7" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/."/>
+					<Add directory="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/1_basic_concept"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaojianguo/Library/Mobile\ Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex7/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaojianguo/Library/Mobile\ Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaojianguo/Library/Mobile\ Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaojianguo/Library/Mobile\ Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex6">
+				<Option output="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/ex6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/."/>
+					<Add directory="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/1_basic_concept"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaojianguo/Library/Mobile\ Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex6"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaojianguo/Library/Mobile\ Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaojianguo/Library/Mobile\ Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaojianguo/Library/Mobile\ Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex6/fast">
+				<Option output="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/ex6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/."/>
+					<Add directory="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/1_basic_concept"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaojianguo/Library/Mobile\ Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex6/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaojianguo/Library/Mobile\ Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaojianguo/Library/Mobile\ Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaojianguo/Library/Mobile\ Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="ex5">
 				<Option output="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug/ex5" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/cmake-build-debug"/>
@@ -275,10 +451,18 @@
 		</Unit>
 		<Unit filename="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/1_basic_concept/ex5-常量.c">
 			<Option target="ex5"/>
-			<Option target="ex4"/>
 		</Unit>
 		<Unit filename="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/1_basic_concept/ex6-从函数返回数组.c">
-			<Option target="ex5"/>
+			<Option target="ex6"/>
+		</Unit>
+		<Unit filename="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/1_basic_concept/ex7-指针数组.c">
+			<Option target="ex7"/>
+		</Unit>
+		<Unit filename="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/1_basic_concept/ex8-指向指针的指针.c">
+			<Option target="ex8"/>
+		</Unit>
+		<Unit filename="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/1_basic_concept/ex9-回调函数.c">
+			<Option target="ex9"/>
 		</Unit>
 		<Unit filename="/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/C-review/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

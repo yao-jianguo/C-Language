@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ex4.dir/1_basic_concept/ex4-外部变量的引用.c.o"
   "CMakeFiles/ex4.dir/1_basic_concept/ex4-外部变量的引用main.c.o"
-  "CMakeFiles/ex4.dir/1_basic_concept/ex5-常量.c.o"
   "ex4.pdb"
   "ex4"
 )

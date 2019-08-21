@@ -1,0 +1,138 @@
+
+set hive.exec.dynamic.partition.mode=nonstrict;
+
+set hive.exec.dynamic.partition=true;
+
+set hive.stats.reliable=false;
+
+set hive.exec.max.dynamic.partitions.pernode=1000;
+
+set hive.map.aggr=true;
+
+add file hdfs:///geo/geoip.data.gz;
+
+insert overwrite table stat_huyu.huyu_mdz_uid_active partition(date_p)
+select null as hour,
+client_id,
+client_name,
+device_id,
+a.uid as uid,
+ip,
+imei,
+idfa,
+model,
+stat_gid,
+city_id,
+city_name, 
+province_id,
+province_name,
+city_level,
+created_date,
+birthday,
+gender,
+date_p
+from
+(
+
+
+
+
+select client_id,
+case when client_id in (1089857299,1089857302) then '美拍'
+    when client_id in (1089867602,1089867603) then '秀秀'
+    when client_id in (1089867607,1089867608) then '美颜'
+    when client_id in (1089867654,1089867655) then '海报'
+    end as client_name,
+device_id,
+uid,
+ip,
+
+from
+stat_huyu.huyu
+where date_p<=${end_time} and date_p>=${begin_time}
+and  
+
+(
+  controller_p='live_channels' and action_p='programs' or controller_p='lives' and action_p='show'
+  or
+  controller_p='statistics'    and action_p='live_play'
+  or
+  controller_p='mussy'         and action_p='recharge_order'
+  or
+  controller_p='open'          and action_p='catch_doll_pay_coins'
+)
+
+
+
+
+
+
+
+select count(tb.uid) as dau_chan_live
+from 
+(
+    select uid 
+    from stat_huyu.huyu
+    where date_p = '${c_date}' and (controller_p='live_channels' and action_p='programs'      -- 频道列表
+                                 or controller_p='lives' and action_p='show'                  -- 直播间
+                                 or controller_p='statistics' and action_p='live_play'        -- 直播间超过15s
+                                 or controller_p='mussy' and action_p='recharge_order'        -- 钱包充值列表
+                                 or controller_p='open' and action_p='catch_doll_pay_coins'   -- 抓娃娃
+                                 )
+    group by uid
+)tb
+
+
+
+原因是这样
+互娱那边的统计逻辑中，把"频道列表、直播间、直播间超过15s、钱包充值列表、抓娃娃" 这些情况下的uid去重包含了进来
+咱们这边的计算逻辑是，把"频道列表、直播间、直播间超过15s" 这些情况下的device_id(设备号)去重包含了进来
+导致两边数据对不齐
+
+试了一下按照互娱那边的逻辑计算，可以得到dataface给出的数据
+
+
+原本以为以 uid 和 device_id算出来的结果会差不是太多 
+
+现在按照uid和device_id分别算了一下，ad_ 是咱们这边计算出来的  huyu-是那边计算出来的
+总体来看就是要少些，重点在uid和device_id选取不通同
+
+
+
+
+
+
+select count(tb.uid) as dau_chan_live
+from 
+(
+    select uid 
+    from stat_huyu.huyu
+    where date_p = '${c_date}' and (controller_p='live_channels' and action_p='programs'      -- 频道列表
+                                 or controller_p='lives' and action_p='show'                  -- 直播间
+                                 or controller_p='statistics' and action_p='live_play' 
+                                 )
+    group by uid
+)tb
+union all
+select count(tb.uid) as dau_chan_live
+from 
+(
+    select uid 
+    from stat_huyu.huyu
+    where date_p = '${c_date}' and (controller_p='live_channels' and action_p='programs' or controller_p='lives' and action_p='show')
+    group by uid
+)tb
+
+
+
+
+
+
+
+
+
+
+
+
+
+

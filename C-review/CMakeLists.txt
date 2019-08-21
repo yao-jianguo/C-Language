@@ -13,6 +13,14 @@ add_executable(ex2
 add_executable(ex3
         1_basic_concept/ex3-变量定义.c)
 add_executable(ex4
-        1_basic_concept/ex4-外部变量的引用.c 1_basic_concept/ex4-外部变量的引用main.c 1_basic_concept/ex5-常量.c)
+        1_basic_concept/ex4-外部变量的引用.c 1_basic_concept/ex4-外部变量的引用main.c)
 add_executable(ex5
-        1_basic_concept/ex5-常量.c 1_basic_concept/ex6-从函数返回数组.c)
+        1_basic_concept/ex5-常量.c)
+add_executable(ex6
+        1_basic_concept/ex6-从函数返回数组.c)
+add_executable(ex7
+        1_basic_concept/ex7-指针数组.c)
+add_executable(ex8
+        1_basic_concept/ex8-指向指针的指针.c)
+add_executable(ex9
+        1_basic_concept/ex9-回调函数.c)

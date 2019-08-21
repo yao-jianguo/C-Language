@@ -1,10 +1,11 @@
 #include <stdio.h>
 
-int main ()
-{
-    int  var;
-    int  *ptr;
-    int  **pptr;
+//地址不断传递
+
+int main() {
+    int var;
+    int *ptr;
+    int **pptr;
 
     var = 3000;
 
@@ -15,8 +16,8 @@ int main ()
     pptr = &ptr;
 
     /* 使用 pptr 获取值 */
-    printf("Value of var = %d\n", var );
-    printf("Value available at *ptr = %d\n", *ptr );
+    printf("Value of var = %d\n", var);
+    printf("Value available at *ptr = %d\n", *ptr);
     printf("Value available at **pptr = %d\n", **pptr);
 
     return 0;
