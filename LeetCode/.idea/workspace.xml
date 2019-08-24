@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated>
-      <config projectName="LeetCode" targetName="ex1" />
-      <config projectName="LeetCode" targetName="LeetCode" />
-      <config projectName="LeetCode" targetName="ex2" />
-    </generated>
+    <generated />
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
@@ -14,32 +10,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3c213bf-c354-4ec3-ae2d-46a0e5b72f09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../C-review/1_basic_concept/ex9-回调函数.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursive/fac.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-review/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../C-review/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-review/1_basic_concept/ex5-常量" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-review/1_basic_concept/ex6-从函数返回数组.c" beforeDir="false" afterPath="$PROJECT_DIR$/../C-review/1_basic_concept/ex6-从函数返回数组.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-review/1_basic_concept/ex8-指向指针的指针.c" beforeDir="false" afterPath="$PROJECT_DIR$/../C-review/1_basic_concept/ex8-指向指针的指针.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-review/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../C-review/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-review/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../C-review/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-review/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../C-review/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-review/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../C-review/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-review/cmake-build-debug/CMakeFiles/ex4.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../C-review/cmake-build-debug/CMakeFiles/ex4.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-review/cmake-build-debug/CMakeFiles/ex4.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C-review/cmake-build-debug/CMakeFiles/ex4.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-review/cmake-build-debug/CMakeFiles/ex4.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../C-review/cmake-build-debug/CMakeFiles/ex4.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-review/cmake-build-debug/CMakeFiles/ex4.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../C-review/cmake-build-debug/CMakeFiles/ex4.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-review/cmake-build-debug/CMakeFiles/ex4.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C-review/cmake-build-debug/CMakeFiles/ex4.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-review/cmake-build-debug/CMakeFiles/ex5.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../C-review/cmake-build-debug/CMakeFiles/ex5.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-review/cmake-build-debug/CMakeFiles/ex5.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C-review/cmake-build-debug/CMakeFiles/ex5.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-review/cmake-build-debug/CMakeFiles/ex5.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../C-review/cmake-build-debug/CMakeFiles/ex5.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-review/cmake-build-debug/CMakeFiles/ex5.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../C-review/cmake-build-debug/CMakeFiles/ex5.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-review/cmake-build-debug/CMakeFiles/ex5.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C-review/cmake-build-debug/CMakeFiles/ex5.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-review/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../C-review/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-review/cmake-build-debug/C_review.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../C-review/cmake-build-debug/C_review.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-review/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../C-review/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Escape_from_the_maze/.test.c.swp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../books/C程序设计语言（第2版·新版）.pdf" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCodeTopic/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/3.stack&amp;queue/Queue.c" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructure/3.stack&amp;queue/Queue.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/3.stack&amp;queue/QueueDemo" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructure/3.stack&amp;queue/QueueDemo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/3.stack&amp;queue/QueueDemo.c" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructure/3.stack&amp;queue/QueueDemo.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/3.stack&amp;queue/ReQueue.c" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructure/3.stack&amp;queue/ReQueue.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/3.stack&amp;queue/ReQueueDemo.c" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructure/3.stack&amp;queue/ReQueueDemo.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/6.Tree/PreOrderTravers" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructure/6.Tree/PreOrderTravers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/6.Tree/PreOrderTravers.c" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructure/6.Tree/PreOrderTravers.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/6.Tree/PreOrderTravers_Demo.c" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructure/6.Tree/PreOrderTravers_Demo.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,19 +30,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Recursive/fac.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -70,12 +42,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MedianOfTwoSortedArrays.c">
+        <entry file="file://$PROJECT_DIR$/递归/回文.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+            <state relative-caret-position="390">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3447" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeetCodeTopic/MedianOfTwoSortedArrays.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCodeTopic/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-117" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmake-build-debug/LeetCode.cbp">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -88,6 +106,13 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -123,6 +148,36 @@
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Escape_from_the_maze" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCodeTopic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Recursive" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="递归" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -148,28 +203,6 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ex2">
-    <configuration name="LeetCode" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="LeetCode" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="LeetCode">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="ex1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="ex1">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="ex2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="ex2">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.ex1" />
-      <item itemvalue="Application.ex2" />
-      <item itemvalue="Application.LeetCode" />
-    </list>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -184,6 +217,7 @@
       <workItem from="1559630772382" duration="3881000" />
       <workItem from="1559716804253" duration="2455000" />
       <workItem from="1565341931314" duration="13000" />
+      <workItem from="1566384310095" duration="102000" />
     </task>
     <task id="LOCAL-00001" summary="Cfiles">
       <created>1559634993555</created>
@@ -217,12 +251,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6390000" />
+    <option name="totallyTimeSpent" value="6492000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -237,7 +271,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32959184" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.32857144" />
+      <window_info anchor="bottom" id="CMake" order="12" visible="true" weight="0.32857144" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -275,17 +309,12 @@
         <state relative-caret-position="-4470" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/MedianOfTwoSortedArrays.c" />
+    <entry file="file://$PROJECT_DIR$/Recursive/fac.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MedianOfTwoSortedArrays.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -296,10 +325,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Recursive/fac.c">
+    <entry file="file://$PROJECT_DIR$/递归/回文.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/LeetCode.cbp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3447" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCodeTopic/MedianOfTwoSortedArrays.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCodeTopic/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>

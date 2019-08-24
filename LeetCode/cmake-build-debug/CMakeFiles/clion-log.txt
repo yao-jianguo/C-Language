@@ -1,4 +1,1 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/LeetCode"
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-Language/LeetCode/cmake-build-debug
+CMakeLists.txt not found in /Users/yaojianguo/Library/Mobile Documents/com~apple~CloudDocs/ScienceSpace/C-language/LeetCode Select CMakeLists.txt file...
